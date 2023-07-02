@@ -114,6 +114,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Node.js](https://nodejs.org/en/)
 - [React.js](https://pt-br.reactjs.org/)
+- [Vite](https://vitejs.dev/)
 - [Jest](https://jestjs.io/)
 - [Cypress](https://docs.cypress.io/guides/overview/why-cypress)
 - [Storybook](https://storybook.js.org/)
