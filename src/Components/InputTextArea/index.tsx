@@ -9,6 +9,8 @@ export interface Props {
     onChange: (value: string) => void;
     value: string;
     styleCustom?: string | undefined;
+    id?: string;
+    placeholder?: string;
 }
 
 export default function InputTextArea({ onChange, value, styleCustom, ...rest }: Props) {

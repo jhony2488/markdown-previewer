@@ -1,8 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import {
     AppBar,
-    IconButton,
-    Toolbar,
     Container,
     Typography
 } from '@material-ui/core';
@@ -13,7 +11,7 @@ export default function Header() {
     const classes = useStyles();
 
     return (
-        <>
+        <React.Fragment>
             <AppBar className={classes.appBar} position="fixed">
                 <Container className={classes.container}>
                     <Typography className={classes.title}>
@@ -21,6 +19,6 @@ export default function Header() {
                     </Typography>
                 </Container>
             </AppBar>
-        </>
+        </React.Fragment>
     );
 }
